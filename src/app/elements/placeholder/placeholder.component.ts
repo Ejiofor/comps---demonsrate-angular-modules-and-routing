@@ -11,7 +11,7 @@ export class PlaceholderComponent implements OnInit {
   header = true;
 
   @Input()
-  lines = 5;
+  lines = 1;
   constructor() { }
 
   ngOnInit(): void {
